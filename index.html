@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- navbar -->
     <div class="navbar flex justify-between items-center p-4">
@@ -21,18 +23,30 @@
         </div>
 
         <!-- logo -->
-        <div class="mslogo md:order-first font-bold">
-            Microsoft
+        <div class="mslogo md:order-first flex items-center lg:mx-10">
+            <div class="font-bold">Microsoft</div>
+            <div class="features hidden md:flex mx-20 space-x-2 lg:space-x-6">
+                <div class="fitem">Microsoft 365</div>
+                <div class="fitem">Office</div>
+                <div class="fitem">Windows</div>
+                <div class="fitem”">Surface</div>
+                <div class="fitem">Xbox</div>
+                <div class="fitem">Support</div>
+            </div>
         </div>
 
         <!-- profile -->
-        <div class="cart-profile inline-flex md:order-2">
-            <div class="cart">cart</div>
+        <div class="cart-profile inline-flex md:order-3">
+            <div class="cart flex">
+                <div class="allprod hidden md:block mx-4 ">All Microsoft</div>
+                <div class="search hidden md:block mx-2 ">Search</div>
+                cart
+            </div>
             <div class="profile mx-2">profile</div>
         </div>
-        <div class="search hidden md:order-3 mx-2 ">Search</div>
 
     </div>
-    
+
 </body>
+
 </html>
