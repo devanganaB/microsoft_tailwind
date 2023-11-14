@@ -9,7 +9,7 @@
 <body>
     <!-- navbar -->
     <div class="navbar flex justify-between items-center p-4">
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center md:hidden">
             <!-- element1 -->
             <div class="hamburger inline-block cursor-pointer">
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -19,16 +19,18 @@
             <!-- element2 -->
             <div class="search mx-2">Search</div>
         </div>
+
         <!-- logo -->
-        <div class="mslogo">
+        <div class="mslogo md:order-first font-bold">
             Microsoft
         </div>
 
         <!-- profile -->
-        <div class="cart-profile inline-flex">
+        <div class="cart-profile inline-flex md:order-2">
             <div class="cart">cart</div>
             <div class="profile mx-2">profile</div>
         </div>
+        <div class="search hidden md:order-3 mx-2 ">Search</div>
 
     </div>
     
