@@ -22,3 +22,7 @@ This landing page serves as a clone of Microsoft's Home page, replicating its la
 ## Usage
 
 To view the landing page, simply open the `index.html` file in a web browser. For development purposes, you may consider using a local development server.
+
+
+![image](https://github.com/devanganaB/microsoft_tailwind/assets/111975037/3b8ba3f5-657f-4357-b39b-156868b3c8a1)
+
